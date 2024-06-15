@@ -36,6 +36,62 @@ This assignment aims to familiarize you with the tools and configurations necess
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
 
+        ANSWER
+
+ 1. MySQL Installation and Configuration
+
+Installation Steps:
+Download MySQL installer from MySQL official website:https://dev.mysql.com/downloads/windows/installer/5.7.html
+Run the installer and follow on-screen instructions.
+Specify installation directory and configuration options.
+
+Configuration:
+Set up root password and create necessary users.
+Configure MySQL server settings (e.g., port number, character set).
+
+2. Docker Installation and Configuration
+
+Installation Steps:
+Download Docker Desktop for Windows from Docker Hub
+Run the installer and follow on-screen instructions.
+Enable Hyper-V and containers features if prompted.
+
+Configuration:
+Adjust Docker resources (CPU, memory) as per your system specifications.
+Verify Docker installation using docker --version and docker-compose --version.
+
+3. Python Environment Setup
+
+Installation Steps:
+Download Python installer from Python official website:http://wwww.python.org
+Run the installer and select "Add Python to PATH" option.
+Customize installation by adding optional features (e.g., pip, tcl/tk, documentation).
+
+Configuration:
+Install essential Python packages using pip install (e.g., virtualenv, Flask, numpy).
+
+4. Git Installation and Configuration
+
+Installation Steps:
+Download Git for Windows from Git official website:https://github.com
+Run the installer and follow on-screen instructions.
+Configure line endings and other settings during installation.
+
+Configuration:
+Set up Git global configurations (username, email) using git config --global.
+
+5. Integrated Development Environment (IDE) Setup
+
+IDE: [Visual Studio Code]
+
+Installation Steps:
+Download IDE installer from IDE official website:https://code.visualstudio.com/Download
+Run the installer and follow on-screen instructions.
+Install necessary extensions (e.g., Python, Docker, Git integration).
+
+Configuration:
+Customize editor settings, theme, and keyboard shortcuts.
+
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
